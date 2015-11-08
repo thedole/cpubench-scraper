@@ -9,8 +9,8 @@ module.exports = (function (url) {
         getElementById: function (id, callback) {
             rp(url)
                 .then(function (htmlstring) {
-                var window = domino.createWindow(htmlstring);
-                    var element = window.document.querySelector('#' + id);
+                var document = domino.createDocument(htmlstring);
+                    var element = document.querySelector('#' + id);
                     callback(null, element);
             })
             .catch(function (err) {
