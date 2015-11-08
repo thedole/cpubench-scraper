@@ -15,9 +15,6 @@ module.exports = function (url) {
                 
                 return Promise.resolve(element);
             });
-        },
-        setUrl: function (newUrl){
-            url = newUrl;
         }
     }
 };
