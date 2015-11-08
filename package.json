@@ -14,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "request-promise": "^1.0.2",
-    "domino": "^1.0.19"
+    "domino": "^1.0.19",
+    "bluebird": "^3.0.5"
   }
 }
