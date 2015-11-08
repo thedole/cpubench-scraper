@@ -1,0 +1,18 @@
+{
+  "name": "cpubench",
+  "version": "0.0.0",
+  "description": "just playing around with the data available at http://www.cpubenchmark.net",
+  "main": "cpubench.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cpu",
+    "benchmarks"
+  ],
+  "author": "Dag Ole Kristoffersen <thedole@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^7.0.2"
+  }
+}
