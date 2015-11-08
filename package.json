@@ -13,6 +13,7 @@
   "author": "Dag Ole Kristoffersen <thedole@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "jsdom": "^7.0.2"
+    "request": "^2.65.0",
+    "domino": "^1.0.19"
   }
 }
